@@ -1,4 +1,6 @@
-#.gitignore
-classes/
-*.class
-*.*~
+#.gitignore for Java8 repository.
+
+classes/  	#ignore the directory where java classes are stored
+*.class   	#ignore the bytecode files
+*.*~      	#ignore any temporary java or class files
+.gitignore~	#ignore the .gitignore temporary file
